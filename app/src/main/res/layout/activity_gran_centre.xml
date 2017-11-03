@@ -1,9 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.ivan.grancentreapp.GranCentre">
+    android:id="@+id/LinearLayout0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@color/white"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/buttonB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="business"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@drawable/business"
+            android:contentDescription="@string/movies_description"/>
+
+        <ImageView
+            android:id="@+id/buttonR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:background="@drawable/restaurants"
+            android:contentDescription="@string/restaurants_description"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@color/white"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/buttonM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="movies"
+            android:textColor="@color/white"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/movies"
+            android:contentDescription="@string/movies_description"/>
+
+        <ImageView
+            android:id="@+id/buttonW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/weather"/>
+
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingBottom="@dimen/activity_vertical_margin"
+      android:paddingLeft="@dimen/activity_horizontal_margin"
+      android:paddingRight="@dimen/activity_horizontal_margin"
+      android:paddingTop="@dimen/activity_vertical_margin"
+      android:background="@color/white"
+      android:layout_gravity="center">
+
+         <ImageView
+            android:id="@+id/buttonH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="hotels"
+            android:textColor="@color/white"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/hotels"
+            android:contentDescription="hotels_description"/>
+
+        <ImageView
+            android:id="@+id/buttonK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="knowledge"
+            android:textColor="@color/white"
+            android:background="@drawable/knowledge"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Gran Centre</string>
-    <string name="restaurants_select">Selecciona un restaurant: </string>
+    <string name="business_description">Accedeix al menú de empreses</string>
+    <string name="restaurants_description">Accedeix al menú de restaurants</string>
+    <string name="movies_description">Accedeix al menú de cinemes</string>
+    <string name="weather_description">Accedeix al menú del temps</string>
+    <string name="restaurants_select">Sel·lecciona un restaurant:</string>
+    <string-array name="restaurants_array">
+        <item>El Celler de Jabugo</item>
+        <item>El Trull</item>
+        <item>Enoburger: SANKT PAULI</item>
+        <item>Naguabo - Restaurant</item>
+        <item>Fonda Europa</item>
+        <item>Hotel Mercure Augusta</item>
+    </string-array>
 </resources>

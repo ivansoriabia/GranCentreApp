@@ -11,12 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="20px">
+        android:paddingBottom="@dimen/activity_horizontal_margin">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/restaurants"/>
+            android:src="@drawable/restaurants"
+            android:contentDescription="@string/restaurants_description"/>
     </LinearLayout>
 
     <LinearLayout
@@ -31,8 +32,8 @@
 
         <Spinner
             android:layout_width="200dp"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:id="@+id/name_restaurants"/>
 
-        </Spinner>
     </LinearLayout>
 </LinearLayout>
