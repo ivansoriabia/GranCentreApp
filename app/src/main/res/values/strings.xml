@@ -1,16 +1,11 @@
 <resources>
-    <string name="app_name">Gran Centre</string>
-    <string name="business_description">Accedeix al menú de empreses</string>
-    <string name="restaurants_description">Accedeix al menú de restaurants</string>
-    <string name="movies_description">Accedeix al menú de cinemes</string>
-    <string name="weather_description">Accedeix al menú del temps</string>
-    <string name="restaurants_select">Sel·lecciona un restaurant:</string>
-    <string-array name="restaurants_array">
-        <item>El Celler de Jabugo</item>
-        <item>El Trull</item>
-        <item>Enoburger: SANKT PAULI</item>
-        <item>Naguabo - Restaurant</item>
-        <item>Fonda Europa</item>
-        <item>Hotel Mercure Augusta</item>
-    </string-array>
+    <string name="app_name">Gran Centre Granollers</string>
+    <string name="restaurants_webPage">Pàg. Web</string>
+    <string name="restaurants_telephone">Telèfon</string>
+    <string name="restaurants_jabugo">El Celler de Jabugo</string>
+    <string name="restaurants_trull">El Trull</string>
+    <string name="restaurants_enoburger">Sankt Pauli Enoburger</string>
+    <string name="restaurants_naguabo">Restaurant El Naguabo</string>
+    <string name="restaurants_fondaeuropa">Casa Fonda Europa</string>
+    <string name="restaurants_mercure">Hotel Mercure Augusta</string>
 </resources>
