@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurants_category"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textSize="@dimen/restaurant_category_size"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/BtrestM"
+            android:layout_width="@dimen/launcher_photo_size"
+            android:layout_height="@dimen/launcher_photo_size"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/restaurants_mediterranean"
+            android:onClick="mediterrani"/>
+
+        <ImageView
+            android:id="@+id/btresI"
+            android:layout_width="@dimen/launcher_photo_size"
+            android:layout_height="@dimen/launcher_photo_size"
+            android:background="@drawable/restaurants_italian"
+            android:onClick="italia" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/btresI2"
+            android:layout_width="@dimen/launcher_photo_size"
+            android:layout_height="@dimen/launcher_photo_size"
+            android:background="@drawable/restaurants_international"
+            android:onClick="internacional"/>
+    </LinearLayout>
+</LinearLayout>
