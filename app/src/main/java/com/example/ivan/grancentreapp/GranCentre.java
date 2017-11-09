@@ -13,7 +13,7 @@ public class GranCentre extends AppCompatActivity{
         setContentView(R.layout.activity_gran_centre);
     }
 
-    protected void restaurants (View v){
+    public void restaurants (View view){
         Intent restaurants = new Intent(GranCentre.this, restaurants_index.class);
         startActivity(restaurants);
     }

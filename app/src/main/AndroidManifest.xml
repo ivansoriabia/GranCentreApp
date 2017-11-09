@@ -23,7 +23,7 @@
             android:screenOrientation="portrait" />
         <activity android:name=".restaurants_mediterrani" />
         <activity android:name=".restaurants_italia" />
-        <activity android:name=".restaurants_internacional"></activity>
+        <activity android:name=".restaurants_internacional"/>
     </application>
 
 </manifest>

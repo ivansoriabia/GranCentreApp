@@ -17,9 +17,9 @@ public class restaurants_italia extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurants_italia);
 
-        web = (Button) findViewById(R.id.web1);
+        web = (Button) findViewById(R.id.web);
 
-        phone = (Button) findViewById(R.id.phone1);
+        phone = (Button) findViewById(R.id.phone);
 
         web.setOnClickListener(
                 new View.OnClickListener() {
