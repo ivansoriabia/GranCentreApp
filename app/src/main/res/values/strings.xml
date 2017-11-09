@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Gran Centre Granollers</string>
+    <string name="restaurants_category">Categoria</string>
     <string name="restaurants_webPage">Pàg. Web</string>
     <string name="restaurants_telephone">Telèfon</string>
     <string name="restaurants_jabugo">El Celler de Jabugo</string>

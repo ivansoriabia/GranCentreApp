@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GranCentre"
+        <activity
+            android:name=".GranCentre"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".restaurants" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".restaurants_index"
+            android:screenOrientation="portrait" />
+        <activity android:name=".restaurants_mediterrani" />
+        <activity android:name=".restaurants_italia" />
+        <activity android:name=".restaurants_internacional"></activity>
     </application>
 
 </manifest>

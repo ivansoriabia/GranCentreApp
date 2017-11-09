@@ -14,7 +14,7 @@ public class GranCentre extends AppCompatActivity{
     }
 
     protected void restaurants (View v){
-        Intent restaurants = new Intent(GranCentre.this, restaurants.class);
+        Intent restaurants = new Intent(GranCentre.this, restaurants_index.class);
         startActivity(restaurants);
     }
 }
