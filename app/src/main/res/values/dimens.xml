@@ -4,5 +4,9 @@
     <dimen name="activity_vertical_margin">15dp</dimen>
     <dimen name="launcher_photo_size">125dp</dimen>
     <dimen name="restaurant_photo_size">100dp</dimen>
+    <dimen name="temps_photo_size">100dp</dimen>
     <dimen name="restaurant_category_size">14pt</dimen>
+    <dimen name="temp_size">18pt</dimen>
+    <dimen name="probilitat_size">12pt</dimen>
+    <dimen name="windrain_size">9pt</dimen>
 </resources>

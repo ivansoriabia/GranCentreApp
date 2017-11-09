@@ -17,5 +17,10 @@ public class GranCentre extends AppCompatActivity{
         Intent restaurants = new Intent(GranCentre.this, restaurants_index.class);
         startActivity(restaurants);
     }
+
+    public void weather (View view){
+        Intent weather = new Intent(GranCentre.this, temps.class);
+        startActivity(weather);
+    }
 }
 

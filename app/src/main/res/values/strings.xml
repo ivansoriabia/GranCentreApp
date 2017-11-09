@@ -9,4 +9,5 @@
     <string name="restaurants_naguabo">Restaurant El Naguabo</string>
     <string name="restaurants_fondaeuropa">Casa Fonda Europa</string>
     <string name="restaurants_mercure">Hotel Mercure Augusta</string>
+    <string name="temps_probabilitat">Probabilitat:</string>
 </resources>

@@ -53,7 +53,8 @@
             android:id="@+id/buttonW"
             android:layout_width="@dimen/launcher_photo_size"
             android:layout_height="@dimen/launcher_photo_size"
-            android:background="@drawable/weather" />
+            android:background="@drawable/weather"
+            android:onClick="weather"/>
     </LinearLayout>
 
     <LinearLayout
