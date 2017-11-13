@@ -91,6 +91,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/web2"
+                        android:enabled="false"
                         android:text="@string/restaurants_webPage"/>
 
                     <Button
