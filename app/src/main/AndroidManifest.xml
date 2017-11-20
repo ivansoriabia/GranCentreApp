@@ -24,7 +24,12 @@
         <activity android:name=".restaurants_mediterrani" />
         <activity android:name=".restaurants_italia" />
         <activity android:name=".restaurants_internacional" />
-        <activity android:name=".temps"></activity>
+        <activity android:name=".temps" />
+        <activity android:name=".Business_index" />
+        <activity android:name=".Business_alimentacio" />
+        <activity android:name=".Business_esports" />
+        <activity android:name=".Business_optica" />
+        <activity android:name=".Movies"></activity>
     </application>
 
 </manifest>

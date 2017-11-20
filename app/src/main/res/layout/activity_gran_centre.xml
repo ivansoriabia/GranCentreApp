@@ -22,8 +22,7 @@
             android:layout_width="@dimen/launcher_photo_size"
             android:layout_height="@dimen/launcher_photo_size"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:background="@drawable/business"
-            android:onClick="business"/>
+            android:background="@drawable/business"/>
 
         <ImageView
             android:id="@+id/buttonR"
@@ -46,8 +45,7 @@
             android:layout_width="@dimen/launcher_photo_size"
             android:layout_height="@dimen/launcher_photo_size"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:background="@drawable/movies"
-            android:onClick="movies" />
+            android:background="@drawable/movies" />
 
         <ImageView
             android:id="@+id/buttonW"
